@@ -1,0 +1,8 @@
+{
+  "name": "sas",
+  "app_id": "18ab2cec",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ionic Conference",
+  "short_name": "Ionic Conf",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/img/stadium.png",
+    "sizes": "89x55",
+    "type": "image/png"
+  }],
+  "background_color": "#387ef5",
+  "theme_color": "#387ef5"
+}

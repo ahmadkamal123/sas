@@ -1,0 +1,62 @@
+
+
+<ion-header >
+  <ion-navbar color='light'>
+
+    <ion-buttons left>
+    <button ion-button menuToggle icon-only color='facebook'>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-buttons>
+
+    <ion-segment>
+      <img class='title'  src="assets/img/stadium.png"  >
+  </ion-segment>
+
+  <ion-buttons right>
+      <button  ion-button icon-only color='light' (click)="presentPopover($event)">
+        <ion-icon  name="power"></ion-icon>
+      </button>
+      </ion-buttons> 
+
+  </ion-navbar>
+</ion-header>
+
+
+
+
+<ion-content >
+
+
+<div  class="about-header" [navPush]="speakerListPage" > 
+    <img  src="assets/img/c.jpg" alt=" logo" >
+    <div class="card-title">VIP BOOKINGS <br/>
+    <button ion-button round color='facebook'>Book now</button>
+
+</div>
+</div>
+
+   <div class="about-header" [navPush]="newPage3Page" >
+    <img  src="assets/img/m.jpg"  alt="logo">
+    <div class="card-title2">OUR SERVICES <br/>
+      <button ion-button round color='facebook' >VIEW </button>
+    </div>
+  </div>
+
+  <div class="about-header" [navPush]="newPage" >
+    <img  src="assets/img/b.jpg" alt=" logo">
+    <div class="card-title2">ABOUT US <br/>
+      <button ion-button round color='facebook'>VIEW</button>
+    </div>
+  </div>
+
+    <div class="about-header" [navPush]="mapPage" >
+    <img  src="assets/img/e.jpg" alt=" logo">
+    <div class="card-title2">GALLERY <br/>
+      <button ion-button round color='facebook'>VIEW </button>
+    </div>
+  </div>
+
+
+
+</ion-content>
